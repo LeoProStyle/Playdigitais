@@ -1,0 +1,25 @@
+.button{
+    text-transform: lowercase;
+    font-weight: 500;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    
+}   
+
+.button-primary{
+    background-color:var(--secundario);
+    border-color:var(--secundario);
+    
+    
+}   
+.button-primary:hover{
+    background-color:var(--primario);
+    border-color:var(--secundario);
+}
+.button-primary-outline{
+    border-color:var(--secundario);
+}
+a.btn.btn-primary {
+     transform: translate(190%, 250%);
+    
+}

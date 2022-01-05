@@ -1,0 +1,722 @@
+body,html{
+    /*background: linear-gradient(90deg,rgba(85, 2, 117, 1) 0%, rgba(0, 0, 0, 1) 25%);*/
+    background: linear-gradient(0.25turn, #6002ad , #000000 21%, 91%,#020069);    
+    font-family: 'Montserrat', sans-serif;
+    
+    margin-bottom: 3%
+            
+};
+
+#header{
+    width: 100%;
+    background-color: transparent;
+    transition: background ease-out 0.2s;
+    
+   
+}
+#header .container{
+    max-width: 1450px;  
+}
+#header .navbar-collapse{
+    width: auto;
+    
+    
+}
+#header .navbar-toggler{
+    background-color: rgb(125, 0, 129);
+    
+}
+#header .nav-link{
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 0;
+    padding-right: 0;
+    color: white;
+    border-bottom: solid 4px transparent;
+   
+}
+#header .nav-link:hover{
+    border-bottom: solid 4px var(--terceiro);
+    color: var(--secundario)
+    
+}
+.col-md-6 align-self-center img.img-fluid{
+    max-width: 100% !important;
+
+}
+#template .containerCapa{
+    background: url('../CapaPD01.jpg') no-repeat;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: auto 2000 / 450;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+   
+}
+#template .logo{
+     
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Bree Serif';
+    color: var(--quarto);
+}
+
+ h4{  
+    font-size: 1em;
+   }
+
+ h3 {
+    
+    text-align: center;
+    font-size: 2em;
+    position: relative;
+    left: 50%;
+    top: 25%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--quarto)!important;
+    
+}
+.containerCapa h4 {
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    position: relative;
+    left: 50%;
+    top: 40%;
+    width: 60%;
+    transform: translate(-50%, -50%);
+    color: var(--quarto);
+    
+}
+#titulos .central{
+    position: relative;
+    text-align: center;
+    font-size: 3em;
+    color: var(--quarto);
+}
+#titulos1 .central{
+    position: relative;
+    text-align: center;
+    font-size: 3em;
+    color: var(--quarto);
+    margin-bottom: 19px;
+    margin-top: -48px;
+   
+}
+#titulos2 .central{
+    position: relative;
+    text-align: center;
+    font-size: 3em;
+    color: var(--quarto);
+    margin-bottom: 19px;
+    margin-top: -76px;
+   
+}
+#titulos3 .central{
+    position: relative;
+    text-align: center;
+    font-size: 3em;
+    color: var(--quarto);
+    margin-bottom: 46px;
+   
+}
+#titulos4 .central{
+    position: relative;
+    text-align: center;
+    font-size: 3em;
+    color: var(--quarto);
+    margin-bottom: 42px;
+    margin-top: 31px;
+   
+}
+
+span{
+box-shadow: 0 17px 15px -11px rgb(34 129 253 / 100%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 25px -2px rgb(0 0 0 / 52%)
+}
+
+#sub h4{
+    color: rgb(255, 255, 255);
+    
+}
+#sub h2{
+    color: white;
+    
+}
+.powr-instagram-feed{
+    position: relative;
+}
+  .banner1{
+    width: 100%;
+     position: absolute;
+     top: 76%;
+     left: 20%;
+     max-width: 60%
+
+}
+video#vd {
+    box-shadow: 0 0px 16px 6px rgb(255 255 255 / 55%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 25px -2px rgb(0 0 0 / 14%)
+}
+/*-----------------------------------------------------COMO FUNCIONA-----------------------------------------------------------------*/
+img.mb-3.mt-n5 {
+    margin-bottom: -1rem!important;
+}
+.col-12 {
+    
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.rounded {
+    border-radius: 0.25rem!important;
+         }
+.no-gutters {
+            margin-right: 0;
+            margin-left: 0;
+        }    
+.row {
+            
+            display: flex;
+            
+            flex-wrap: wrap;
+     }
+.rounded-right {
+        border-top-right-radius: 0.25rem!important;
+        border-bottom-right-radius: 0.25rem!important;
+    }
+.text-white-50 {
+color: rgba(255,255,255,.5)!important;
+    }
+ #how-it-works p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        color: rgba(255, 255, 255, 0.918)!important;
+        
+        
+    }  
+   .text01{
+       width:50%;
+   }
+
+/*-------------------------------------------------PERGUNTAS FREQUENTES-------------------------------------------------------------*/
+
+#corpo p{
+    font-size: 17px;
+    color: white;
+    margin-bottom: 0rem;
+    margin-left: 24px;
+}
+#pf .shadow-sm {
+    box-shadow: 0 .125rem .2rem rgba(0,0,0,.095)!important;
+}
+
+#pf .bg-gradient-purple{
+    background: linear-gradient(135deg, rgba(61,62,143,1) 0%, rgba(165,37,215,1) 100%);
+}
+#pf .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 4.3125rem;
+}
+#pf h5 {
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#pf .accordion-title {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: .875rem;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+}
+#pf .accordion .card {
+    margin-bottom: 0rem;
+    overflow: inherit;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+}
+#pf .accordion>.card:first-of-type {
+    border-bottom: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+#pf .accordion {
+    margin-bottom: 0rem;
+    font-size: 21px;
+}
+
+#pf .text-white-50 {
+    color: rgba(255,255,255,.5)!important;
+}
+#pf .card-body.text-white-50{
+    
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        padding: 1.875rem;
+    
+}
+#pf .accordion .card .card-body {
+    padding-right: 1.5625rem;
+    padding-left: 1.5625rem;
+}
+div#accordionFaq{
+    font-size: 0.875rem;
+}
+#pf .accordion .card .card-header {
+    padding-right: 1.5625rem;
+    padding-left: 1.5625rem;
+    margin-bottom: 0;
+    background-color: #3498db;
+    border: none;
+    border-radius: 0.1875rem!important;
+
+}
+#pf .accordion .card {
+    margin-bottom: 0.1875rem;
+    overflow: inherit;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+}
+.collapsible {
+    background-color: rgba(119, 119, 119, 0);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: rgba(85, 85, 85, 0);
+  }
+  
+  .content {
+    padding: 0px 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #00000000;
+  }
+  #pf .container{
+      height: 50%;
+  }
+  button.collapsible.card-header.shadow-sm.bg-gradient-purple.accordion.card {
+    margin: 5px;
+}
+/*-------------------------------------------------FIM-------------------------------------------------------------*/
+
+
+/*-------------------------------------------------PARCEIROS-------------------------------------------------------------*/
+.cx {
+    width: 50%;
+}
+.pa.card-body a {
+    color: #000000;
+    text-decoration: initial;
+    font-size: 1.25rem;
+    text-align: center;
+}
+div#ro a {
+    font-size: 1.0rem !important;
+}
+
+/*----------------------------------------------------FIM------------------------------------------------------------------*/
+/*-------------------------------------------------BENEFICIOS-------------------------------------------------------------*/
+#bf.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.card-deck {
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.pt-5, .py-5 {
+    padding-top: 1rem !important;
+}
+.py-md-5{
+    padding-bottom: 0rem!important;
+}
+.card-deck .card {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-right: 15px;
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+.border-0 {
+    border: 0!important;
+}
+.shadow {
+    box-shadow: 0 .42rem 1.22rem rgba(0,0,0,.12)!important;
+}
+.card {
+    margin-bottom: 2rem;
+    border-radius: 0.3125rem;
+}
+.mt-n5, .my-n5 {
+    margin-top: -3rem!important;
+}
+.mb-3, .my-3 {
+    margin-bottom: 1rem!important;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.h1, h1 {
+    font-size: 2.5rem;
+}
+.text-uppercase {
+    text-transform: uppercase!important;
+}
+.text-center {
+    text-align: center!important;
+}
+h2.h1.section-title-4.title-light-1.text-center.font-weight-800.text-uppercase {
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif!important;
+}
+.card-deck .card {
+    margin-bottom: 25px;
+}
+.py-4{
+    padding-top: 1rem!important;
+}
+.card-body{
+    text-align: center;
+    padding: 1rem 2rem;
+    }
+    
+
+h5.card-title.font-weight-700 {
+      
+    margin-top: 24px;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    }
+/*-------------------------------------------------FIM-------------------------------------------------------------*/    
+/*------------------------------------------------WHATSAPP----------------------------------------------------------*/
+.whatswidget-widget-wrapper {
+    font-family: "Helvetica Neue","Apple Color Emoji",Helvetica,Arial,sans-serif !important;
+    font-size: 16px !important;
+    position: fixed !important;
+    bottom: 20px !important;
+    right: 30px !important;
+    z-index: 1001 !important;
+}
+.whatswidget-button {
+    position: relative !important;
+    right: 0px !important;
+    background-color: #31d831 !important;
+    border-radius: 100% !important;
+    width: 60px !important;
+    height: 60px !important;
+    box-shadow: 2px 1px #0d630d63 !important;
+    transition: 1s !important;
+}
+/*-----------------------------------------------FIM-----------------------------------------------------------*/
+
+/*----------------------------------------------BOTAO ROXO--------------------------------------------------*/
+.btn-gradient-purple.focus, .btn-gradient-purple:focus, .btn-gradient-purple:hover, .btn-gradient-purple:active {
+    background-position: right center;
+    box-shadow: none;
+    color: white;
+}
+.pt-4{
+    text-align: center;
+    padding-top: 7rem !important;
+}
+.btn-group-lg>.btn-round.btn, .btn-round.btn-lg {
+    border-radius: 1.6875rem;
+}
+
+.btn-gradient-purple {
+    color: #FFFFFF;
+    background-image: linear-gradient(to right, rgb(38, 40, 182) 0%, rgba(165,37,215,1) 51%, rgba(61,62,143,1) 100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+}
+.btn {
+    border-width: 1px;
+}
+.btn-round {
+    border-radius: 1.3125rem;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: 0.9375rem 1.9375rem;
+    font-size: .875rem;
+    line-height: 1.45;
+    border-radius: 0.1875rem;
+}
+.btn {
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    padding: 0.625rem 1.625rem;
+    font-size: .75rem;
+    line-height: 1.6;
+    border-radius: 0.1875rem;
+    transition: all .2s ease-in-out;
+    color: rgb(253, 253, 253);
+    background-color: #ffffff;
+    box-shadow: 0 12px 10px -10px  rgb(238 126 248 / 55%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 25px -2px rgb(0 0 0 / 14%);
+}
+
+.mb-3, .my-3 {
+    margin-bottom: 1rem!important;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: 0.9375rem 1.9375rem;
+    font-size: .875rem;
+    line-height: 1.45;
+    border-radius: 0.3125rem;
+}
+.btn {
+    display: inline-block;
+    font-weight: 600;
+    color: #fcf9f9;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color:transparent;
+    border: 2px solid transparent;
+    padding: 0.625rem 1.625rem;
+    font-size: .75rem;
+    line-height: 1.6;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+/*-------------------------------------------------FIM-------------------------------------------------------------*/
+/*--------------------------------Botoes Sociais-----------------------*/
+
+div#social {
+    text-align: center;
+}
+.so img{
+    
+    width: 6%;
+    
+}
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  } 
+.fa:hover {
+    opacity: 0.7;
+    color: rgb(225, 0, 255);
+  }  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+/*-------------------------------------FIM-------------------------------------------*/
+
+
+
+/*-----------------------------MEDIAS--------------------*/
+@media (min-width: 992px){
+    .mb-lg-0, .my-lg-0 {
+        margin-bottom: 0!important;
+                       }
+    }
+
+@media (min-width: 768px){
+.p-md-5 {
+    padding: 2rem!important;
+        }
+}
+@media(max-width: 992px) {
+    a.btn.btn-primary {
+        transform: translate(175%,80%);
+                    }
+#sub h4{
+    text-align: center;
+            }
+#sub h2{
+    text-align: center;
+          }
+  .powr-instagram-feed{
+    position: relative;
+                             }
+  .banner1{  
+     width: 60%;
+     position: absolute;
+     top: 76%;
+     left: 20%;
+           }
+.mb-lg-0, .my-lg-0 {
+     margin-bottom: 0!important;
+                   }
+#titulos1 .central {
+                                     
+ font-size: 2em;
+                   
+                }
+.text-uppercase{
+    padding-top: 84px;
+    font-size: 1.6rem;
+       }
+#how-it-works p{
+    margin-block-start: -69px;
+    }
+img.icone.mb-3.img-fluid.mt-n5.img-fluid {
+        margin-bottom: -3rem!important;
+    }
+.text01 {
+        width: 89%;
+    }
+    div#ro a {
+        font-size: 0.8rem !important;
+    }
+    div#ts a {
+        font-size: 1rem !important;
+    }
+    div#lo a {
+        font-size: 1rem !important;
+    }
+    .pa.card-body{
+        text-align: center;
+        padding: 1rem 1rem;
+        }
+}
+/*-------------------------------------------------FIM-------------------------------------------------------------*/
+/*--------------------------BOTAOROXO-----------------------------------*/
+
+
+
+
+@media(max-width: 521px){
+ .banner1 img.img-fluid{
+      
+        width: 300px !important;
+        height: 200px !important;
+        transform: translate(-0%, -35%);
+        max-width: 100%;
+        
+      }
+     #Duvida h3.central.img-fluid {
+        text-align: center;
+        font-size: 1rem;
+        font-family: 'Bree Serif';
+        position: relative;
+        width: 50%;
+        transform: translate(-50%, -50%);
+        color: var(--quarto);
+    }
+    #titulos h1.central.img-fluid {
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: 'Bree Serif';
+        position: relative;
+        width: 100%;
+        color: var(--quarto);
+    }
+    .so img{
+        width: 12%;
+    }
+    img.riu.img-fluid{
+        width: 30%;
+        height: 50%;
+    }
+    
+    .card-deck {
+       display: flex;
+       flex-direction: column;
+    }
+    .cx {
+        width: 97%;
+    }
+    button#dropdownMenuButton1 {
+        POSITION: relative!important; 
+        LEFT:0% !important;
+        
+    }
+}
+/*-----------------------------MEDIAS--------------------*/ 
+
+/*-----------------------------lista de jogos---------------------*/
+/*botoes*/
+.btn-plataform {
+    display: inline-block;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 10px 10px 0;
+    width: 100%;
+    border: 2px solid transparent;
+}
+.btn-gradient-purple {
+    color: #FFFFFF;
+    background-image: linear-gradient(to right, rgba(61,62,143,1) 0%, rgba(165,37,215,1) 51%, rgba(61,62,143,1) 100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+}
+.shadow-none {
+    box-shadow: none!important;
+}
+.p-4 {
+    padding: 1.5rem!important;
+     left: 86%;
+}
+button#dropdownMenuButton1 {
+    POSITION: absolute;
+    LEFT: 550%;
+}
+.pb-5, .py-5 {
+    padding-bottom: 1rem!important;
+}
